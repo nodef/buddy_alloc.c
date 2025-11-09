@@ -1,5 +1,5 @@
 # buddy_alloc
-A buddy memory allocator for C
+A buddy memory allocator for C, by [Stanislav Paskalev](https://github.com/spaskalev).
 
 # Status
 
@@ -23,6 +23,18 @@ This is a memory allocator suitable for use in applications that require predict
 - Supports 32-bit and 64-bit platforms
 - Endian-agnostic, works on both LE and BE
 - Compiles with GCC, Clang, MSVC and Pelles C
+
+## Installation
+
+Run:
+```bash
+$ npm i buddy_alloc.c
+```
+
+And then include `buddy_alloc.h` as follows:
+```c
+#include "node_modules/buddy_alloc.c/buddy_alloc.h"
+```
 
 ## Usage
 
@@ -184,3 +196,10 @@ If you are using buddy_alloc in your project and you would like project to be fe
 - Use in OS research - [1](https://repositories.lib.utexas.edu/server/api/core/bitstreams/ce9f9383-809a-4cc3-ba0b-e8a5e0428ef4/content), [2](https://www.cs.utexas.edu/~witchel/pubs/zhu24dimes-lupin.pdf), [3](https://upcommons.upc.edu/bitstream/handle/2117/411096/main.pdf;jsessionid=8D64ABBCE67117F7F2BB29A51B72CCCF)
 - Use in user-space software - [1](https://github.com/liulilittle/PPP-2/commit/6da093802ffa541ea4cf6f92b01ef783d493d706)
 - Use in scientific software - [1](https://github.com/ecmwf-ifs/field_api)
+
+<br>
+<br>
+
+
+[![ORG](https://img.shields.io/badge/org-nodef-green?logo=Org)](https://nodef.github.io)
+![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/buddy_alloc.c)

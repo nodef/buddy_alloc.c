@@ -1,0 +1,15 @@
+{
+  "name": "buddy_alloc.c",
+  "version": "1.2025.9",
+  "description": "A single header buddy memory allocator for C & C++; Stanislav Paskalev (2021).",
+  "keywords": ["c", "library", "memory", "allocator", "buddy", "allocation"],
+  "license": "0BSD",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/buddy_alloc.c.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nodef/buddy_alloc.c/issues"
+  },
+  "homepage": "https://github.com/nodef/buddy_alloc.c#readme"
+}
