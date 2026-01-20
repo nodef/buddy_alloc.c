@@ -1,6 +1,6 @@
 {
   "name": "buddy_alloc.c",
-  "version": "1.2025.10",
+  "version": "1.2025.11",
   "description": "A single header buddy memory allocator for C & C++; Stanislav Paskalev (2021).",
   "keywords": [
     "c",
